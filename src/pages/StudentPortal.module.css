@@ -1,0 +1,8 @@
+.container {
+  display: grid;
+  grid-template-columns: 3fr 10fr;
+  height: 100vh;
+  background-color: #f0f2f5;
+  overflow: hidden;
+  scrollbar-width: none;
+}

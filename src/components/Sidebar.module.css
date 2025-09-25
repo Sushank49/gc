@@ -1,0 +1,19 @@
+.sidebar {
+  height: 100vh;
+  border-right: 2px solid #11111195;
+  padding: 0rem 3rem;
+  box-sizing: border-box;
+}
+
+.listContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.title {
+  font-size: 3.2rem;
+  font-weight: 600;
+  color: #2d3748;
+  margin-bottom: 1rem;
+}
