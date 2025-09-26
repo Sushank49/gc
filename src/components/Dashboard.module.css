@@ -1,0 +1,16 @@
+.dashboard {
+  padding: 0rem 5rem;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.title {
+  font-size: 3.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.subTitle {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: rgba(43, 43, 43, 0.721);
+}

@@ -11,6 +11,7 @@ function LoginForm() {
     e.preventDefault();
     // Simple validation (for demonstration purposes)
     if (username === "user" && password === "pass") {
+      localStorage.setItem("isLoggedIn", "true");
       navigate("/sportal");
     } else {
       alert("Invalid credentials");

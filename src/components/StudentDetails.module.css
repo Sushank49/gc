@@ -1,0 +1,7 @@
+.title {
+  font-size: 3.2rem;
+}
+
+.title:hover {
+  cursor: pointer;
+}

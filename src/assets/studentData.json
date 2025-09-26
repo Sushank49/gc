@@ -42,7 +42,7 @@
       "Student id": "STU001",
       "Title": "Robotics Club",
       "Description": "Lead programmer for robotics team",
-      "Date started": "2023-09-01",
+      "Date": "2023-09-01",
       "Hours spent": 120,
       "Recognition": "Club President"
     },
@@ -50,7 +50,7 @@
       "Student id": "STU002",
       "Title": "Debate Society",
       "Description": "Competitive debating and public speaking",
-      "Date started": "2023-08-15",
+      "Date": "2023-08-15",
       "Hours spent": 85,
       "Recognition": "Team Captain"
     },
@@ -58,71 +58,66 @@
       "Student id": "STU003",
       "Title": "Environmental Club",
       "Description": "Organizing campus sustainability initiatives",
-      "Date started": "2023-10-01",
+      "Date": "2023-10-01",
       "Hours spent": 60,
       "Recognition": "Active Member"
     },
     {
-      "Student id": "STU004",
+      "Student id": "STU001",
       "Title": "Basketball Team",
       "Description": "Varsity basketball player",
-      "Date started": "2023-07-20",
+      "Date": "2023-07-20",
       "Hours spent": 200,
       "Recognition": "Starting Player"
     },
     {
-      "Student id": "STU005",
+      "Student id": "STU001",
       "Title": "Music Band",
       "Description": "Guitarist in school rock band",
-      "Date started": "2023-09-10",
+      "Date": "2023-09-10",
       "Hours spent": 150,
       "Recognition": "Lead Guitarist"
     }
   ],
 
-  "Honors and Awards": [
+  "HNA": [
     {
       "Student id": "STU001",
-      "Title of Award/Honor": "National Math Olympiad Gold",
+      "Title": "National Math Olympiad Gold",
       "Description": "First place in national mathematics competition",
-      "Date awarded": "2024-02-14",
-      "Grade when awarded": "Grade 12",
+      "Date": "Grade 12",
       "Recognition": "Gold Medal",
       "Awarded by": "Mathematics Association"
     },
     {
       "Student id": "STU002",
-      "Title of Award/Honor": "Science Fair Winner",
+      "Title": "Science Fair Winner",
       "Description": "Best project in regional science fair",
-      "Date awarded": "2024-03-08",
-      "Grade when awarded": "Grade 11",
+      "Date": "Grade 11",
       "Recognition": "First Place",
       "Awarded by": "Science Education Board"
     },
     {
       "Student id": "STU003",
-      "Title of Award/Honor": "Creative Writing Award",
+      "Title": "Creative Writing Award",
       "Description": "Outstanding short story publication",
-      "Date awarded": "2024-01-25",
-      "Grade when awarded": "Grade 10",
+      "Date": "Grade 10",
       "Recognition": "Published Author",
       "Awarded by": "Literary Society"
     },
     {
-      "Student id": "STU004",
-      "Title of Award/Honor": "Sports Achievement Award",
+      "Student id": "STU001",
+      "Title": "Sports Achievement Award",
       "Description": "MVP in inter-school basketball tournament",
-      "Date awarded": "2024-04-12",
-      "Grade when awarded": "Grade 12",
+      "Date": "Grade 12",
       "Recognition": "Most Valuable Player",
       "Awarded by": "Sports Association"
     },
     {
-      "Student id": "STU005",
-      "Title of Award/Honor": "Music Performance Award",
+      "Student id": "STU001",
+      "Title": "Music Performance Award",
       "Description": "Outstanding musical performance",
-      "Date awarded": "2024-05-30",
-      "Grade when awarded": "Grade 11",
+      "Date": "Grade 11",
       "Recognition": "Excellence in Performance",
       "Awarded by": "Arts Council"
     }
@@ -131,52 +126,52 @@
   "Universities": [
     {
       "Student id": "STU001",
-      "Name of university": "Massachusetts Institute of Technology",
+      "Title": "Massachusetts Institute of Technology",
       "Country": "USA",
-      "Program": "Computer Science",
-      "Date of application": 2024,
+      "Degree": "Computer Science",
+      "Date": 2024,
       "Application session": "Fall 2025",
       "Attending year": 2025
     },
     {
       "Student id": "STU002",
-      "Name of university": "Stanford University",
+      "Title": "Stanford University",
       "Country": "USA",
-      "Program": "Physics",
-      "Date of application": 2024,
+      "Degree": "Physics",
+      "Date": 2024,
       "Application session": "Fall 2025",
       "Attending year": 2025
     },
     {
       "Student id": "STU003",
-      "Name of university": "University of Oxford",
+      "Title": "University of Oxford",
       "Country": "UK",
-      "Program": "English Literature",
-      "Date of application": 2024,
+      "Degree": "English Literature",
+      "Date": 2024,
       "Application session": "Fall 2025",
       "Attending year": 2025
     },
     {
-      "Student id": "STU004",
-      "Name of university": "University of Toronto",
+      "Student id": "STU001",
+      "Title": "University of Toronto",
       "Country": "Canada",
-      "Program": "History",
-      "Date of application": 2024,
+      "Degree": "History",
+      "Date": 2024,
       "Application session": "Fall 2025",
       "Attending year": 2025
     },
     {
-      "Student id": "STU005",
-      "Name of university": "Berklee College of Music",
+      "Student id": "STU001",
+      "Title": "Berklee College of Music",
       "Country": "USA",
-      "Program": "Music Performance",
-      "Date of application": 2024,
+      "Degree": "Music Performance",
+      "Date": 2024,
       "Application session": "Fall 2025",
       "Attending year": 2025
     }
   ],
 
-  "Feedback s": [
+  "Feedbacks": [
     {
       "GC id": "GC001",
       "Student id": "STU001",
@@ -202,7 +197,7 @@
       "Date": "2024-04-25"
     },
     {
-      "GC id": "GC005",
+      "GC id": "GC001",
       "Student id": "STU005",
       "Feedback": "Exceptional musical talent and dedication to band practice.",
       "Date": "2024-08-05"
