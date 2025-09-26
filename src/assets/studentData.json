@@ -1,0 +1,201 @@
+{
+  "Student Table": [
+    {
+      "Student ID": "STU001",
+      "GC ID": "GC001",
+      "Roll no.": 1,
+      "House": "A",
+      "Grade/Set": "Grade 12"
+    },
+    {
+      "Student ID": "STU002",
+      "GC ID": "GC002",
+      "Roll no.": 2,
+      "House": "B",
+      "Grade/Set": "Grade 11"
+    },
+    {
+      "Student ID": "STU003",
+      "GC ID": "GC003",
+      "Roll no.": 3,
+      "House": "C",
+      "Grade/Set": "Grade 10"
+    },
+    {
+      "Student ID": "STU004",
+      "GC ID": "GC004",
+      "Roll no.": 4,
+      "House": "D",
+      "Grade/Set": "Grade 12"
+    },
+    {
+      "Student ID": "STU005",
+      "GC ID": "GC005",
+      "Roll no.": 5,
+      "House": "A",
+      "Grade/Set": "Grade 11"
+    }
+  ],
+  
+  "Academic Honors": [
+    {
+      "Student ID": "STU001",
+      "Title": "Mathematics Excellence Award",
+      "Description": "Top scorer in Advanced Mathematics",
+      "Date": "2024-05-15"
+    },
+    {
+      "Student ID": "STU002",
+      "Title": "Science Research Prize",
+      "Description": "Outstanding research in Physics",
+      "Date": "2024-06-20"
+    },
+    {
+      "Student ID": "STU003",
+      "Title": "Literature Achievement",
+      "Description": "Best creative writing portfolio",
+      "Date": "2024-04-10"
+    },
+    {
+      "Student ID": "STU001",
+      "Title": "Computer Science Honors",
+      "Description": "Excellence in programming competition",
+      "Date": "2024-03-22"
+    },
+    {
+      "Student ID": "STU004",
+      "Title": "History Scholar Award",
+      "Description": "Outstanding historical research paper",
+      "Date": "2024-07-05"
+    }
+  ],
+  
+  "Activities": [
+    {
+      "Student ID": "STU001",
+      "Title": "Robotics Club",
+      "Description": "Lead programmer for robotics team",
+      "Date started": "2023-09-01",
+      "Hours spent": 120,
+      "Recognition": "Club President"
+    },
+    {
+      "Student ID": "STU002",
+      "Title": "Debate Society",
+      "Description": "Competitive debating and public speaking",
+      "Date started": "2023-08-15",
+      "Hours spent": 85,
+      "Recognition": "Team Captain"
+    },
+    {
+      "Student ID": "STU003",
+      "Title": "Environmental Club",
+      "Description": "Organizing campus sustainability initiatives",
+      "Date started": "2023-10-01",
+      "Hours spent": 60,
+      "Recognition": "Active Member"
+    },
+    {
+      "Student ID": "STU004",
+      "Title": "Basketball Team",
+      "Description": "Varsity basketball player",
+      "Date started": "2023-07-20",
+      "Hours spent": 200,
+      "Recognition": "Starting Player"
+    },
+    {
+      "Student ID": "STU005",
+      "Title": "Music Band",
+      "Description": "Guitarist in school rock band",
+      "Date started": "2023-09-10",
+      "Hours spent": 150,
+      "Recognition": "Lead Guitarist"
+    }
+  ],
+  
+  "Awards": [
+    {
+      "Student ID": "STU001",
+      "Title": "National Math Olympiad Gold",
+      "Description": "First place in national mathematics competition",
+      "Date awarded": "2024-02-14",
+      "Awarded by": "Mathematics Association"
+    },
+    {
+      "Student ID": "STU002",
+      "Title": "Science Fair Winner",
+      "Description": "Best project in regional science fair",
+      "Date awarded": "2024-03-08",
+      "Awarded by": "Science Education Board"
+    },
+    {
+      "Student ID": "STU003",
+      "Title": "Creative Writing Award",
+      "Description": "Outstanding short story publication",
+      "Date awarded": "2024-01-25",
+      "Awarded by": "Literary Society"
+    },
+    {
+      "Student ID": "STU004",
+      "Title": "Sports Achievement Award",
+      "Description": "MVP in inter-school basketball tournament",
+      "Date awarded": "2024-04-12",
+      "Awarded by": "Sports Association"
+    },
+    {
+      "Student ID": "STU005",
+      "Title": "Music Performance Award",
+      "Description": "Outstanding musical performance",
+      "Date awarded": "2024-05-30",
+      "Awarded by": "Arts Council"
+    }
+  ],
+  
+  "Universities": [
+    {
+      "Student ID": "STU001",
+      "Name of university": "Massachusetts Institute of Technology",
+      "Country": "USA",
+      "Program": "Computer Science",
+      "Date of application": 2024,
+      "Application session": "Fall 2025",
+      "Attending year": 2025
+    },
+    {
+      "Student ID": "STU002",
+      "Name of university": "Stanford University",
+      "Country": "USA",
+      "Program": "Physics",
+      "Date of application": 2024,
+      "Application session": "Fall 2025",
+      "Attending year": 2025
+    },
+    {
+      "Student ID": "STU003",
+      "Name of university": "University of Oxford",
+      "Country": "UK",
+      "Program": "English Literature",
+      "Date of application": 2024,
+      "Application session": "Fall 2025",
+      "Attending year": 2025
+    },
+    {
+      "Student ID": "STU004",
+      "Name of university": "University of Toronto",
+      "Country": "Canada",
+      "Program": "History",
+      "Date of application": 2024,
+      "Application session": "Fall 2025",
+      "Attending year": 2025
+    },
+    {
+      "Student ID": "STU005",
+      "Name of university": "Berklee College of Music",
+      "Country": "USA",
+      "Program": "Music Performance",
+      "Date of application": 2024,
+      "Application session": "Fall 2025",
+      "Attending year": 2025
+    }
+  ]
+}
