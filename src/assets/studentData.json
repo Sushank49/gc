@@ -1,78 +1,45 @@
 {
   "Student Table": [
     {
-      "Student ID": "STU001",
-      "GC ID": "GC001",
-      "Roll no.": 1,
+      "Student id": "STU001",
+      "GC id": "GC001",
+      "Name": "Emma Johnson",
       "House": "A",
       "Grade/Set": "Grade 12"
     },
     {
-      "Student ID": "STU002",
-      "GC ID": "GC002",
-      "Roll no.": 2,
+      "Student id": "STU002",
+      "GC id": "GC002",
+      "Name": "James Smith",
       "House": "B",
       "Grade/Set": "Grade 11"
     },
     {
-      "Student ID": "STU003",
-      "GC ID": "GC003",
-      "Roll no.": 3,
+      "Student id": "STU003",
+      "GC id": "GC003",
+      "Name": "Sophia Williams",
       "House": "C",
       "Grade/Set": "Grade 10"
     },
     {
-      "Student ID": "STU004",
-      "GC ID": "GC004",
-      "Roll no.": 4,
+      "Student id": "STU004",
+      "GC id": "GC004",
+      "Name": "Michael Brown",
       "House": "D",
       "Grade/Set": "Grade 12"
     },
     {
-      "Student ID": "STU005",
-      "GC ID": "GC005",
-      "Roll no.": 5,
+      "Student id": "STU005",
+      "GC id": "GC005",
+      "Name": "Olivia Davis",
       "House": "A",
       "Grade/Set": "Grade 11"
     }
   ],
-  
-  "Academic Honors": [
-    {
-      "Student ID": "STU001",
-      "Title": "Mathematics Excellence Award",
-      "Description": "Top scorer in Advanced Mathematics",
-      "Date": "2024-05-15"
-    },
-    {
-      "Student ID": "STU002",
-      "Title": "Science Research Prize",
-      "Description": "Outstanding research in Physics",
-      "Date": "2024-06-20"
-    },
-    {
-      "Student ID": "STU003",
-      "Title": "Literature Achievement",
-      "Description": "Best creative writing portfolio",
-      "Date": "2024-04-10"
-    },
-    {
-      "Student ID": "STU001",
-      "Title": "Computer Science Honors",
-      "Description": "Excellence in programming competition",
-      "Date": "2024-03-22"
-    },
-    {
-      "Student ID": "STU004",
-      "Title": "History Scholar Award",
-      "Description": "Outstanding historical research paper",
-      "Date": "2024-07-05"
-    }
-  ],
-  
+
   "Activities": [
     {
-      "Student ID": "STU001",
+      "Student id": "STU001",
       "Title": "Robotics Club",
       "Description": "Lead programmer for robotics team",
       "Date started": "2023-09-01",
@@ -80,7 +47,7 @@
       "Recognition": "Club President"
     },
     {
-      "Student ID": "STU002",
+      "Student id": "STU002",
       "Title": "Debate Society",
       "Description": "Competitive debating and public speaking",
       "Date started": "2023-08-15",
@@ -88,7 +55,7 @@
       "Recognition": "Team Captain"
     },
     {
-      "Student ID": "STU003",
+      "Student id": "STU003",
       "Title": "Environmental Club",
       "Description": "Organizing campus sustainability initiatives",
       "Date started": "2023-10-01",
@@ -96,7 +63,7 @@
       "Recognition": "Active Member"
     },
     {
-      "Student ID": "STU004",
+      "Student id": "STU004",
       "Title": "Basketball Team",
       "Description": "Varsity basketball player",
       "Date started": "2023-07-20",
@@ -104,7 +71,7 @@
       "Recognition": "Starting Player"
     },
     {
-      "Student ID": "STU005",
+      "Student id": "STU005",
       "Title": "Music Band",
       "Description": "Guitarist in school rock band",
       "Date started": "2023-09-10",
@@ -112,48 +79,58 @@
       "Recognition": "Lead Guitarist"
     }
   ],
-  
-  "Awards": [
+
+  "Honors and Awards": [
     {
-      "Student ID": "STU001",
-      "Title": "National Math Olympiad Gold",
+      "Student id": "STU001",
+      "Title of Award/Honor": "National Math Olympiad Gold",
       "Description": "First place in national mathematics competition",
       "Date awarded": "2024-02-14",
+      "Grade when awarded": "Grade 12",
+      "Recognition": "Gold Medal",
       "Awarded by": "Mathematics Association"
     },
     {
-      "Student ID": "STU002",
-      "Title": "Science Fair Winner",
+      "Student id": "STU002",
+      "Title of Award/Honor": "Science Fair Winner",
       "Description": "Best project in regional science fair",
       "Date awarded": "2024-03-08",
+      "Grade when awarded": "Grade 11",
+      "Recognition": "First Place",
       "Awarded by": "Science Education Board"
     },
     {
-      "Student ID": "STU003",
-      "Title": "Creative Writing Award",
+      "Student id": "STU003",
+      "Title of Award/Honor": "Creative Writing Award",
       "Description": "Outstanding short story publication",
       "Date awarded": "2024-01-25",
+      "Grade when awarded": "Grade 10",
+      "Recognition": "Published Author",
       "Awarded by": "Literary Society"
     },
     {
-      "Student ID": "STU004",
-      "Title": "Sports Achievement Award",
+      "Student id": "STU004",
+      "Title of Award/Honor": "Sports Achievement Award",
       "Description": "MVP in inter-school basketball tournament",
       "Date awarded": "2024-04-12",
+      "Grade when awarded": "Grade 12",
+      "Recognition": "Most Valuable Player",
       "Awarded by": "Sports Association"
     },
     {
-      "Student ID": "STU005",
-      "Title": "Music Performance Award",
+      "Student id": "STU005",
+      "Title of Award/Honor": "Music Performance Award",
       "Description": "Outstanding musical performance",
       "Date awarded": "2024-05-30",
+      "Grade when awarded": "Grade 11",
+      "Recognition": "Excellence in Performance",
       "Awarded by": "Arts Council"
     }
   ],
-  
+
   "Universities": [
     {
-      "Student ID": "STU001",
+      "Student id": "STU001",
       "Name of university": "Massachusetts Institute of Technology",
       "Country": "USA",
       "Program": "Computer Science",
@@ -162,7 +139,7 @@
       "Attending year": 2025
     },
     {
-      "Student ID": "STU002",
+      "Student id": "STU002",
       "Name of university": "Stanford University",
       "Country": "USA",
       "Program": "Physics",
@@ -171,7 +148,7 @@
       "Attending year": 2025
     },
     {
-      "Student ID": "STU003",
+      "Student id": "STU003",
       "Name of university": "University of Oxford",
       "Country": "UK",
       "Program": "English Literature",
@@ -180,7 +157,7 @@
       "Attending year": 2025
     },
     {
-      "Student ID": "STU004",
+      "Student id": "STU004",
       "Name of university": "University of Toronto",
       "Country": "Canada",
       "Program": "History",
@@ -189,13 +166,46 @@
       "Attending year": 2025
     },
     {
-      "Student ID": "STU005",
+      "Student id": "STU005",
       "Name of university": "Berklee College of Music",
       "Country": "USA",
       "Program": "Music Performance",
       "Date of application": 2024,
       "Application session": "Fall 2025",
       "Attending year": 2025
+    }
+  ],
+
+  "Feedback s": [
+    {
+      "GC id": "GC001",
+      "Student id": "STU001",
+      "Feedback": "Excellent performance in mathematics and leadership skills demonstrated in Robotics Club.",
+      "Date": "2024-06-15"
+    },
+    {
+      "GC id": "GC002",
+      "Student id": "STU002",
+      "Feedback": "Strong analytical skills and effective communication in debate competitions.",
+      "Date": "2024-05-20"
+    },
+    {
+      "GC id": "GC003",
+      "Student id": "STU003",
+      "Feedback": "Creative writing talent and active participation in environmental initiatives.",
+      "Date": "2024-07-10"
+    },
+    {
+      "GC id": "GC004",
+      "Student id": "STU004",
+      "Feedback": "Outstanding athletic performance and good team collaboration skills.",
+      "Date": "2024-04-25"
+    },
+    {
+      "GC id": "GC005",
+      "Student id": "STU005",
+      "Feedback": "Exceptional musical talent and dedication to band practice.",
+      "Date": "2024-08-05"
     }
   ]
 }
