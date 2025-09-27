@@ -1,29 +1,10 @@
 import styles from "./Dashboard.module.css";
 import StudentDetails from "./StudentDetails";
-import studentData from "../assets/StudentData.json";
 
-function getStudentById(id) {
-  const student = JSON.parse(JSON.stringify(studentData));
-
-  return {
-    studentDetails: student["Student Table"].find(
-      (s) => s["Student id"] === id
-    ),
-    feedback: student["Feedbacks"].filter(
-      (feedback) => feedback["Student id"] === id
-    ),
-    honors: student["HNA"].filter((honor) => honor["Student id"] === id),
-    activities: student["Activities"].filter(
-      (activity) => activity["Student id"] === id
-    ),
-    universities: student["Universities"].filter(
-      (university) => university["Student id"] === id
-    ),
-  };
-}
-
-function Dashboard() {
-  const student = getStudentById("STU001");
+function Dashboard({ student }) {
+  if (!student || !student.studentDetails) {
+    return <p>Loading student data...</p>;
+  }
   const sections = [
     // {
     //   type: "details",
@@ -41,11 +22,12 @@ function Dashboard() {
   else if (time < 18) msg = "Good Afternoon";
   else msg = "Good Evening";
 
+  console.log(student?.studentDetails[0].Name);
   return (
     <div className={styles.dashboard}>
       <h1 className={styles.title}>Student Dashboard</h1>
       <h2 className={styles.subTitle}>
-        {msg}, {student?.studentDetails?.Name}
+        {msg}, {student?.studentDetails[0]?.Name}
       </h2>
       <hr className={styles.divider} />
       {sections.map((s, idx) => (

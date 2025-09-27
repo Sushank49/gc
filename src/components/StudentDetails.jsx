@@ -3,7 +3,6 @@ import styles from "./StudentDetails.module.css";
 import StudentInfoSection from "./StudentInfoSection";
 
 function StudentDetails({ type, data }) {
-  // console.log(data);
   return (
     <div>
       <h2 className={styles.title}>{type.toUpperCase()}</h2>
@@ -16,7 +15,7 @@ function StudentDetails({ type, data }) {
 
 StudentDetails.propTypes = {
   type: PropTypes.string.isRequired,
-  data: PropTypes.array.isRequired,
+  data: PropTypes.array,
 };
 
 export default StudentDetails;
